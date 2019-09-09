@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="redis"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/bpanda/dev/redis/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/bpanda/dev/redis/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="echo-client">
+				<Option output="/Users/bpanda/dev/redis/cmake-build-debug/echo-client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bpanda/dev/redis/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 echo-client"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="echo-client/fast">
+				<Option output="/Users/bpanda/dev/redis/cmake-build-debug/echo-client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bpanda/dev/redis/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 echo-client/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="echo-server">
+				<Option output="/Users/bpanda/dev/redis/cmake-build-debug/echo-server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bpanda/dev/redis/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 echo-server"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="echo-server/fast">
+				<Option output="/Users/bpanda/dev/redis/cmake-build-debug/echo-server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bpanda/dev/redis/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 echo-server/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ae">
+				<Option output="/Users/bpanda/dev/redis/cmake-build-debug/libae.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bpanda/dev/redis/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 ae"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ae/fast">
+				<Option output="/Users/bpanda/dev/redis/cmake-build-debug/libae.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bpanda/dev/redis/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 ae/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/bpanda/dev/redis/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my-redis-server">
+				<Option output="/Users/bpanda/dev/redis/cmake-build-debug/my-redis-server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bpanda/dev/redis/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/bpanda/dev/redis/deps/hiredis"/>
+					<Add directory="/Users/bpanda/dev/redis/deps/linenoise"/>
+					<Add directory="/Users/bpanda/dev/redis/deps/lua/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 my-redis-server"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my-redis-server/fast">
+				<Option output="/Users/bpanda/dev/redis/cmake-build-debug/my-redis-server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bpanda/dev/redis/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/bpanda/dev/redis/deps/hiredis"/>
+					<Add directory="/Users/bpanda/dev/redis/deps/linenoise"/>
+					<Add directory="/Users/bpanda/dev/redis/deps/lua/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 my-redis-server/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bpanda/dev/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/bpanda/dev/redis/echodemo/echo-client.c">
+			<Option target="echo-client"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/echodemo/echo-server.c">
+			<Option target="echo-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/echodemo/echo.c">
+			<Option target="echo-client"/>
+			<Option target="echo-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/echodemo/echo.h">
+			<Option target="echo-client"/>
+			<Option target="echo-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/adlist.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/adlist.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/ae.c">
+			<Option target="ae"/>
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/ae.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/anet.c">
+			<Option target="ae"/>
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/anet.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/aof.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/asciilogo.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/bio.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/bio.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/bitops.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/blocked.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/childinfo.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/cluster.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/cluster.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/config.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/config.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/crc16.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/crc64.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/crc64.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/db.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/debug.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/defrag.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/dict.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/dict.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/endianconv.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/endianconv.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/evict.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/expire.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/fmacros.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/geo.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/geo.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/geohash.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/geohash.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/geohash_helper.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/geohash_helper.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/help.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/hyperloglog.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/intset.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/intset.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/latency.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/latency.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/lazyfree.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/lzf.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/lzfP.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/lzf_c.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/lzf_d.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/memtest.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/module.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/multi.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/networking.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/notify.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/object.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/pqsort.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/pqsort.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/pubsub.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/quicklist.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/quicklist.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/rand.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/rand.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/rax.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/rax.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/rdb.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/rdb.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/redis-check-aof.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/redis-check-rdb.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/redisassert.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/release.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/release.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/replication.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/rio.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/rio.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/scripting.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/sds.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/sds.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/sdsalloc.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/sentinel.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/server.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/server.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/setproctitle.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/sha1.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/sha1.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/siphash.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/slowlog.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/slowlog.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/solarisfixes.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/sort.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/sparkline.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/sparkline.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/syncio.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/t_hash.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/t_list.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/t_set.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/t_string.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/t_zset.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/testhelp.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/util.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/util.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/version.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/ziplist.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/ziplist.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/zipmap.c">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/zipmap.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/zmalloc.c">
+			<Option target="ae"/>
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/src/zmalloc.h">
+			<Option target="my-redis-server"/>
+		</Unit>
+		<Unit filename="/Users/bpanda/dev/redis/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
